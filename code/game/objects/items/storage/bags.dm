@@ -282,10 +282,10 @@
 	atom_storage.set_holdable(
 		list(
 			/obj/item/food/grown,
-			/obj/item/seeds,
+			/obj/item/plant_seeds,
 			/obj/item/grown,
 			/obj/item/food/honeycomb,
-			/obj/item/disk/plantgene,
+			/obj/item/disk/plant_disk,
 			/obj/item/food/seaweed_sheet
 		)
 	)
@@ -314,7 +314,7 @@
 	atom_storage.max_specific_storage = WEIGHT_CLASS_NORMAL
 	atom_storage.max_total_storage = 10
 	atom_storage.max_slots = 3
-	atom_storage.set_holdable(list(/obj/item/food/grown, /obj/item/seeds, /obj/item/grown))
+	atom_storage.set_holdable(list(/obj/item/food/grown, /obj/item/plant_seeds, /obj/item/grown))
 
 // -----------------------------
 //        Sheet Snatcher
