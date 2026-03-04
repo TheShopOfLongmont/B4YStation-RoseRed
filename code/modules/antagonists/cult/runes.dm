@@ -121,6 +121,9 @@ CREATION_TEST_IGNORE_SUBTYPES(/obj/effect/rune)
 	if(!IS_CULTIST(user))
 		to_chat(user, span_warning("You aren't able to understand the words of [src]."))
 		return
+	if(IS_FAKE_CULTIST(user) && not_allowed_to_fake_cultist)
+		to_chat(user, span_warning("You refuse to invoke the rune. You are not the one who seeks the destruction of the humanity."))
+		return
 	var/list/invokers = can_invoke(user)
 	if(invokers.len >= req_cultists)
 		invoke(invokers)
@@ -170,6 +173,8 @@ structure_check() searches for nearby cultist structures required for the invoca
 		if(plushsie?.invoker_charges > 0)
 			invokers += plushsie
 		for(var/mob/living/cultist in viewers(1, src))
+			if(IS_FAKE_CULTIST(cultist) && not_allowed_to_fake_cultist)
+				continue
 			if(IS_CULTIST(cultist))
 				if(cultist == user)
 					continue
