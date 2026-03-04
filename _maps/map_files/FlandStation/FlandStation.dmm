@@ -1152,7 +1152,7 @@
 /area/ai_monitored/turret_protected/ai)
 "aqD" = (
 /obj/item/caution,
-/obj/structure/mopbucket,
+/obj/structure/mop_bucket,
 /turf/open/floor/plating,
 /area/maintenance/port/central)
 "aqJ" = (
@@ -5541,7 +5541,7 @@
 	},
 /area/hallway/primary/central)
 "bxt" = (
-/obj/structure/mopbucket,
+/obj/structure/mop_bucket,
 /obj/item/mop,
 /obj/item/storage/pill_bottle,
 /turf/open/floor/plating,
@@ -35225,7 +35225,7 @@
 	name = "old sink";
 	pixel_x = -11
 	},
-/obj/structure/mopbucket,
+/obj/structure/mop_bucket,
 /obj/item/reagent_containers/cup/bucket,
 /obj/item/mop,
 /turf/open/floor/iron/dark,
@@ -43092,6 +43092,23 @@
 /obj/machinery/camera/directional/east,
 /turf/open/floor/iron/dark,
 /area/security/prison)
+"lHl" = (
+/obj/structure/table/wood,
+/obj/item/reagent_containers/cup/glass/shaker,
+/obj/item/rag,
+/obj/structure/sign/plaques/deempisi{
+	pixel_y = 28
+	},
+/obj/item/book/manual/wiki/barman_recipes{
+	pixel_x = 4;
+	pixel_y = -4
+	},
+/obj/structure/noticeboard{
+	dir = 4;
+	pixel_x = -27
+	},
+/turf/open/floor/iron/dark,
+/area/crew_quarters/bar)
 "lHp" = (
 /obj/machinery/camera/directional/south{
 	c_tag = "Port Primary Hallway - lounge";
@@ -46397,6 +46414,27 @@
 /obj/effect/turf_decal/tile/neutral,
 /turf/open/floor/iron/dark,
 /area/engine/gravity_generator)
+"mCs" = (
+/obj/effect/turf_decal/tile/red/opposingcorners,
+/obj/structure/table/wood,
+/obj/item/flashlight/lamp{
+	pixel_x = -3;
+	pixel_y = 12
+	},
+/obj/item/melee/baton/security/cattleprod{
+	pixel_x = 2;
+	pixel_y = 5
+	},
+/obj/item/clothing/glasses/blindfold{
+	pixel_x = -2;
+	pixel_y = 1
+	},
+/obj/item/wallframe/camera{
+	pixel_x = 3;
+	pixel_y = -2
+	},
+/turf/open/floor/iron/dark,
+/area/security/main)
 "mCt" = (
 /obj/structure/sink{
 	pixel_y = 30
@@ -47289,27 +47327,6 @@
 /obj/effect/turf_decal/delivery,
 /turf/open/floor/plating,
 /area/maintenance/department/security/brig)
-"mOG" = (
-/obj/effect/turf_decal/tile/red/opposingcorners,
-/obj/structure/table/wood,
-/obj/item/flashlight/lamp{
-	pixel_x = -3;
-	pixel_y = 12
-	},
-/obj/item/melee/baton/security/cattleprod{
-	pixel_x = 2;
-	pixel_y = 5
-	},
-/obj/item/clothing/glasses/blindfold{
-	pixel_x = -2;
-	pixel_y = 1
-	},
-/obj/item/wallframe/camera{
-	pixel_x = 3;
-	pixel_y = -2
-	},
-/turf/open/floor/iron/dark,
-/area/security/main)
 "mOH" = (
 /obj/structure/sign/painting/library{
 	pixel_x = -32
@@ -57148,7 +57165,7 @@
 /turf/open/floor/iron/techmaint,
 /area/science/xenobiology)
 "pCA" = (
-/obj/structure/mopbucket,
+/obj/structure/mop_bucket,
 /obj/item/reagent_containers/cup/bucket,
 /obj/item/mop,
 /turf/open/floor/iron/techmaint,
@@ -63973,7 +63990,7 @@
 /turf/open/floor/iron/dark,
 /area/chapel/main)
 "rzd" = (
-/obj/structure/mopbucket,
+/obj/structure/mop_bucket,
 /obj/item/mop,
 /turf/open/floor/plating,
 /area/maintenance/starboard/aft)
@@ -67005,13 +67022,6 @@
 	},
 /turf/open/floor/carpet,
 /area/hallway/secondary/entry)
-"slZ" = (
-/mob/living/basic/mouse/gray,
-/obj/structure/lattice/catwalk,
-/obj/item/food/cheese/wheel,
-/obj/item/food/breadslice/creamcheese,
-/turf/open/floor/plating,
-/area/maintenance/port/central)
 "sma" = (
 /obj/effect/turf_decal/stripes/line{
 	dir = 8
@@ -87547,23 +87557,6 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/port/aft)
-"xxe" = (
-/obj/structure/table/wood,
-/obj/item/reagent_containers/cup/glass/shaker,
-/obj/item/reagent_containers/cup/rag,
-/obj/structure/sign/plaques/deempisi{
-	pixel_y = 28
-	},
-/obj/item/book/manual/wiki/barman_recipes{
-	pixel_x = 4;
-	pixel_y = -4
-	},
-/obj/structure/noticeboard{
-	dir = 4;
-	pixel_x = -27
-	},
-/turf/open/floor/iron/dark,
-/area/crew_quarters/bar)
 "xxf" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -87738,6 +87731,13 @@
 /obj/effect/landmark/event_spawn,
 /turf/open/floor/iron/ridged/steel,
 /area/science/lobby)
+"xyo" = (
+/mob/living/basic/mouse/gray,
+/obj/structure/lattice/catwalk,
+/obj/item/food/cheese/wheel,
+/obj/item/food/breadslice/creamcheese,
+/turf/open/floor/plating,
+/area/maintenance/port/central)
 "xyr" = (
 /obj/effect/turf_decal/bot,
 /turf/open/floor/iron/dark/side{
@@ -110765,7 +110765,7 @@ lsd
 tkV
 xfm
 rxd
-xxe
+lHl
 wOu
 gci
 nnV
@@ -122583,7 +122583,7 @@ gsN
 xAn
 wrM
 vUR
-mOG
+mCs
 rGl
 jFK
 pYu
@@ -124074,7 +124074,7 @@ lHA
 jID
 jID
 jID
-slZ
+xyo
 jID
 aVq
 asn
