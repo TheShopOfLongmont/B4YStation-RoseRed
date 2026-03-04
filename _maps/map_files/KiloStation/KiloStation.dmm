@@ -2441,12 +2441,6 @@
 	luminosity = 2
 	},
 /area/security/nuke_storage)
-"axt" = (
-/obj/machinery/rnd/production/protolathe/department/engineering,
-/obj/effect/turf_decal/delivery,
-/obj/effect/turf_decal/stripes/box,
-/turf/open/floor/iron,
-/area/engine/break_room)
 "axv" = (
 /obj/effect/turf_decal/siding/wood{
 	dir = 5
@@ -4938,19 +4932,6 @@
 	},
 /turf/open/floor/engine,
 /area/science/mixing/chamber)
-"bbI" = (
-/obj/machinery/doppler_array/research/science{
-	dir = 4
-	},
-/obj/item/radio/intercom{
-	pixel_x = 28
-	},
-/obj/effect/turf_decal/delivery,
-/obj/effect/turf_decal/tile/neutral{
-	dir = 8
-	},
-/turf/open/floor/iron/dark,
-/area/science/mixing)
 "bbN" = (
 /turf/closed/wall,
 /area/science/mixing)
@@ -5928,6 +5909,23 @@
 "bmy" = (
 /turf/closed/wall,
 /area/crew_quarters/bar/atrium)
+"bmB" = (
+/obj/machinery/computer/rdconsole/unlocked{
+	dir = 8
+	},
+/obj/effect/decal/cleanable/dirt,
+/obj/machinery/requests_console{
+	department = "Robotics";
+	departmentType = 2;
+	name = "Robotics RC";
+	pixel_x = 30;
+	receive_ore_updates = 1
+	},
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 1
+	},
+/turf/open/floor/iron/dark,
+/area/science/robotics/lab)
 "bmF" = (
 /obj/machinery/status_display/evac,
 /turf/closed/wall,
@@ -16090,14 +16088,6 @@
 /obj/structure/table/reinforced,
 /turf/open/floor/plating,
 /area/medical/chemistry)
-"dFa" = (
-/obj/machinery/computer/rdconsole/production{
-	dir = 8
-	},
-/obj/effect/turf_decal/bot,
-/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
-/turf/open/floor/iron,
-/area/engine/break_room)
 "dFd" = (
 /obj/structure/closet/secure_closet/personal/cabinet,
 /obj/machinery/newscaster{
@@ -18845,16 +18835,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/science/shuttledock)
-"eyz" = (
-/obj/effect/turf_decal/tile/red/opposingcorners,
-/obj/item/wallframe/camera,
-/obj/structure/table/wood,
-/obj/item/melee/baton/security/cattleprod,
-/obj/item/flashlight/lamp,
-/obj/item/clothing/glasses/blindfold,
-/obj/item/clothing/mask/muzzle,
-/turf/open/floor/iron/dark,
-/area/security/brig)
 "eyM" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -19457,6 +19437,17 @@
 	},
 /turf/open/floor/iron,
 /area/maintenance/disposal/incinerator)
+"eLx" = (
+/obj/effect/turf_decal/bot,
+/obj/structure/window/reinforced/spawner/directional/west,
+/obj/effect/turf_decal/tile/neutral/half/contrasted{
+	dir = 1
+	},
+/obj/machinery/computer/rdconsole/unlocked{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/science/lab)
 "eLH" = (
 /obj/effect/turf_decal/plaque{
 	icon_state = "L9"
@@ -21892,6 +21883,9 @@
 /obj/effect/turf_decal/tile/neutral,
 /turf/open/floor/iron,
 /area/hallway/secondary/exit/departure_lounge)
+"fBx" = (
+/turf/open/floor/iron,
+/area/engine/break_room)
 "fBY" = (
 /obj/structure/sign/poster/contraband/random{
 	pixel_x = 32
@@ -22658,12 +22652,6 @@
 /obj/effect/turf_decal/tile/neutral,
 /turf/open/floor/iron/showroomfloor,
 /area/engine/atmos)
-"fPJ" = (
-/obj/machinery/rnd/production/circuit_imprinter,
-/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
-/obj/effect/turf_decal/stripes/box,
-/turf/open/floor/iron,
-/area/engine/break_room)
 "fPV" = (
 /turf/closed/wall,
 /area/maintenance/solars/starboard/fore)
@@ -23615,6 +23603,16 @@
 /obj/effect/turf_decal/stripes/closeup,
 /turf/open/floor/iron/dark,
 /area/maintenance/starboard)
+"ggu" = (
+/obj/effect/turf_decal/tile/red/opposingcorners,
+/obj/item/wallframe/camera,
+/obj/structure/table/wood,
+/obj/item/melee/baton/security/cattleprod,
+/obj/item/flashlight/lamp,
+/obj/item/clothing/glasses/blindfold,
+/obj/item/clothing/mask/muzzle,
+/turf/open/floor/iron/dark,
+/area/security/brig)
 "ggI" = (
 /obj/structure/cable/yellow{
 	icon_state = "1-2"
@@ -33576,6 +33574,19 @@
 	},
 /turf/open/floor/iron/dark,
 /area/hallway/secondary/entry)
+"jzm" = (
+/obj/machinery/doppler_array/research{
+	dir = 4
+	},
+/obj/item/radio/intercom{
+	pixel_x = 28
+	},
+/obj/effect/turf_decal/delivery,
+/obj/effect/turf_decal/tile/neutral{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/science/mixing)
 "jzn" = (
 /obj/structure/table,
 /obj/item/folder{
@@ -48587,6 +48598,12 @@
 /obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
 /turf/open/floor/iron,
 /area/engine/atmos)
+"oJf" = (
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/obj/machinery/rnd/production/protolathe/department/engineering,
+/obj/effect/turf_decal/stripes/end,
+/turf/open/floor/iron,
+/area/engine/break_room)
 "oJj" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
@@ -52909,23 +52926,6 @@
 	},
 /turf/open/floor/iron,
 /area/security/brig)
-"qhG" = (
-/obj/machinery/computer/rdconsole/robotics{
-	dir = 8
-	},
-/obj/effect/decal/cleanable/dirt,
-/obj/machinery/requests_console{
-	department = "Robotics";
-	departmentType = 2;
-	name = "Robotics RC";
-	pixel_x = 30;
-	receive_ore_updates = 1
-	},
-/obj/effect/turf_decal/tile/neutral/half/contrasted{
-	dir = 1
-	},
-/turf/open/floor/iron/dark,
-/area/science/robotics/lab)
 "qhM" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/cable/yellow{
@@ -74194,6 +74194,14 @@
 	burnt = 1
 	},
 /area/maintenance/fore)
+"xjk" = (
+/obj/machinery/rnd/production/circuit_imprinter,
+/obj/effect/turf_decal/tile/neutral/fourcorners/contrasted,
+/obj/effect/turf_decal/stripes/end{
+	dir = 1
+	},
+/turf/open/floor/iron,
+/area/engine/break_room)
 "xjw" = (
 /obj/structure/bed{
 	dir = 8
@@ -76649,17 +76657,6 @@
 /obj/effect/turf_decal/tile/yellow/opposingcorners,
 /turf/open/floor/iron/showroomfloor,
 /area/medical/chemistry)
-"yaK" = (
-/obj/effect/turf_decal/bot,
-/obj/structure/window/reinforced/spawner/directional/west,
-/obj/effect/turf_decal/tile/neutral/half/contrasted{
-	dir = 1
-	},
-/obj/machinery/computer/rdconsole/core{
-	dir = 4
-	},
-/turf/open/floor/iron/dark,
-/area/science/lab)
 "ybu" = (
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
 	dir = 1
@@ -95060,7 +95057,7 @@ njG
 uoK
 njG
 giB
-eyz
+ggu
 njG
 aaa
 aaa
@@ -112266,9 +112263,9 @@ ifd
 awN
 cuJ
 xuX
-fPJ
-dFa
-axt
+xjk
+oJf
+fBx
 vvF
 mUV
 iGe
@@ -114010,7 +114007,7 @@ cFi
 cFi
 aZS
 uJl
-qhG
+bmB
 dZj
 daU
 fHL
@@ -115309,7 +115306,7 @@ aZi
 hot
 pPB
 bVz
-yaK
+eLx
 dQi
 eFy
 aGj
@@ -119675,7 +119672,7 @@ iQx
 uwT
 kcw
 beH
-bbI
+jzm
 ltD
 eiR
 bbN

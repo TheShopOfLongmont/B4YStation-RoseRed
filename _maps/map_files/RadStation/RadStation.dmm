@@ -6566,22 +6566,6 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer4,
 /turf/open/floor/iron/dark,
 /area/quartermaster/exploration_prep)
-"cip" = (
-/obj/structure/window/reinforced/spawner/directional/south,
-/obj/structure/flora/ausbushes/fullgrass,
-/obj/structure/flora/ausbushes/ppflowers,
-/mob/living/basic/mouse/brown{
-	desc = "This one doesn't squeal";
-	name = "Tony";
-	pixel_x = 7;
-	pixel_y = 12
-	},
-/obj/machinery/holopad{
-	pixel_x = 16;
-	pixel_y = 17
-	},
-/turf/open/floor/grass/no_border,
-/area/hallway/secondary/exit/departure_lounge)
 "cjc" = (
 /obj/structure/girder/reinforced,
 /turf/open/space/basic,
@@ -8961,17 +8945,6 @@
 	dir = 4
 	},
 /area/science/mixing)
-"cXC" = (
-/obj/structure/extinguisher_cabinet{
-	pixel_x = -32
-	},
-/obj/machinery/computer/rdconsole/core{
-	dir = 4
-	},
-/obj/effect/turf_decal/bot,
-/obj/machinery/airalarm/directional/north,
-/turf/open/floor/iron,
-/area/science/lab)
 "cXE" = (
 /mob/living/basic/cockroach,
 /turf/open/floor/plating,
@@ -17053,6 +17026,17 @@
 	},
 /turf/open/floor/iron,
 /area/security/main)
+"fFZ" = (
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -32
+	},
+/obj/machinery/computer/rdconsole/unlocked{
+	dir = 4
+	},
+/obj/effect/turf_decal/bot,
+/obj/machinery/airalarm/directional/north,
+/turf/open/floor/iron,
+/area/science/lab)
 "fGi" = (
 /obj/machinery/light{
 	dir = 4
@@ -25199,6 +25183,22 @@
 /obj/machinery/atmospherics/pipe/layer_manifold/green/visible,
 /turf/open/floor/iron/tech,
 /area/engine/atmos)
+"iHg" = (
+/obj/effect/turf_decal/tile/dark_red/anticorner/contrasted,
+/obj/effect/decal/cleanable/dirt,
+/obj/structure/closet/crate/trashcart,
+/obj/item/trash/boritos{
+	pixel_y = -9
+	},
+/obj/item/broken_bottle,
+/obj/item/cigbutt,
+/obj/item/trash/waffles,
+/obj/item/melee/baton/deputy{
+	name = "old baton";
+	stamina_damage = 10
+	},
+/turf/open/floor/iron,
+/area/maintenance/department/security)
 "iHk" = (
 /obj/structure/cable/yellow{
 	icon_state = "4-8"
@@ -33053,6 +33053,14 @@
 	},
 /turf/open/floor/iron/grid/steel,
 /area/medical/virology)
+"ltl" = (
+/obj/machinery/doppler_array/research{
+	dir = 8
+	},
+/obj/machinery/firealarm/directional/east,
+/obj/machinery/camera/directional/east,
+/turf/open/floor/iron,
+/area/science/misc_lab)
 "ltu" = (
 /obj/machinery/cell_charger,
 /obj/structure/table,
@@ -38470,16 +38478,6 @@
 	name = "mainframe floor"
 	},
 /area/tcommsat/server)
-"njD" = (
-/obj/effect/turf_decal/stripes/line{
-	dir = 9
-	},
-/obj/machinery/computer/rdconsole/production{
-	dir = 4
-	},
-/obj/machinery/digital_clock/directional/west,
-/turf/open/floor/iron/dark,
-/area/engine/engineering)
 "njG" = (
 /obj/effect/turf_decal/tile/dark_red/fourcorners/contrasted{
 	alpha = 180;
@@ -39771,14 +39769,6 @@
 	},
 /turf/open/floor/engine/n2,
 /area/engine/atmos)
-"nFs" = (
-/obj/machinery/doppler_array/research/science{
-	dir = 8
-	},
-/obj/machinery/firealarm/directional/east,
-/obj/machinery/camera/directional/east,
-/turf/open/floor/iron,
-/area/science/misc_lab)
 "nFy" = (
 /obj/effect/turf_decal/tile/green/half/contrasted{
 	dir = 8
@@ -44690,6 +44680,10 @@
 /obj/effect/decal/cleanable/generic,
 /turf/open/floor/plating,
 /area/maintenance/solars/starboard/fore)
+"pqV" = (
+/obj/machinery/rnd/server/no_heat,
+/turf/open/space/basic,
+/area/space)
 "pra" = (
 /obj/effect/spawner/random/decoration/glowstick/lit,
 /obj/effect/decal/cleanable/dirt/dust,
@@ -45429,6 +45423,16 @@
 /obj/machinery/air_sensor/mix_tank,
 /turf/open/floor/engine/airless,
 /area/engine/atmos)
+"pGr" = (
+/obj/effect/turf_decal/stripes/line{
+	dir = 9
+	},
+/obj/machinery/digital_clock/directional/west,
+/obj/machinery/modular_computer/console/preset/engineering{
+	dir = 4
+	},
+/turf/open/floor/iron/dark,
+/area/engine/engineering)
 "pGH" = (
 /obj/structure/disposalpipe/segment{
 	dir = 2
@@ -45878,6 +45882,21 @@
 /obj/effect/turf_decal/tile/dark_green/half/contrasted,
 /turf/open/floor/iron/dark,
 /area/bridge)
+"pOC" = (
+/obj/machinery/computer/rdconsole/unlocked{
+	dir = 4
+	},
+/obj/machinery/requests_console{
+	department = "Robotics Lab";
+	name = "Robotics RC";
+	receive_ore_updates = 1;
+	pixel_x = -32
+	},
+/obj/effect/turf_decal/guideline/guideline_edge/purple{
+	dir = 8
+	},
+/turf/open/floor/iron/dark,
+/area/science/robotics)
 "pOD" = (
 /obj/structure/railing{
 	dir = 4
@@ -54665,22 +54684,6 @@
 "sYx" = (
 /turf/open/floor/iron/tech,
 /area/engine/gravity_generator)
-"sYF" = (
-/obj/effect/turf_decal/tile/dark_red/anticorner/contrasted,
-/obj/effect/decal/cleanable/dirt,
-/obj/structure/closet/crate/trashcart,
-/obj/item/trash/boritos{
-	pixel_y = -9
-	},
-/obj/item/broken_bottle,
-/obj/item/cigbutt,
-/obj/item/trash/waffles,
-/obj/item/melee/baton/deputy{
-	name = "old baton";
-	stamina_damage = 10
-	},
-/turf/open/floor/iron,
-/area/maintenance/department/security)
 "sYG" = (
 /obj/effect/turf_decal/guideline/guideline_edge/purple,
 /obj/machinery/firealarm/directional/south,
@@ -60743,6 +60746,22 @@
 "uRt" = (
 /turf/open/floor/wood,
 /area/crew_quarters/heads/captain/private)
+"uRG" = (
+/obj/structure/window/reinforced/spawner/directional/south,
+/obj/structure/flora/ausbushes/fullgrass,
+/obj/structure/flora/ausbushes/ppflowers,
+/mob/living/basic/mouse/brown{
+	desc = "This one doesn't squeal";
+	name = "Tony";
+	pixel_x = 7;
+	pixel_y = 12
+	},
+/obj/machinery/holopad{
+	pixel_x = 16;
+	pixel_y = 17
+	},
+/turf/open/floor/grass/no_border,
+/area/hallway/secondary/exit/departure_lounge)
 "uRI" = (
 /obj/machinery/light,
 /obj/effect/turf_decal/guideline/guideline_edge/blue,
@@ -70245,21 +70264,6 @@
 	},
 /turf/open/floor/iron/dark,
 /area/vacant_room/commissary/commissary1)
-"ygb" = (
-/obj/machinery/computer/rdconsole/core{
-	dir = 4
-	},
-/obj/machinery/requests_console{
-	department = "Robotics Lab";
-	name = "Robotics RC";
-	receive_ore_updates = 1;
-	pixel_x = -32
-	},
-/obj/effect/turf_decal/guideline/guideline_edge/purple{
-	dir = 8
-	},
-/turf/open/floor/iron/dark,
-/area/science/robotics)
 "ygl" = (
 /turf/closed/wall/r_wall,
 /area/security/checkpoint/science)
@@ -72097,7 +72101,7 @@ yeA
 yeA
 yeA
 yeA
-yeA
+pqV
 yeA
 yeA
 yeA
@@ -92351,7 +92355,7 @@ enu
 vDf
 enu
 lQS
-nFs
+ltl
 gqI
 diP
 hvo
@@ -95154,7 +95158,7 @@ jIs
 iiM
 ryi
 llP
-ygb
+pOC
 qtW
 jsG
 tqz
@@ -99989,7 +99993,7 @@ wzF
 fFX
 uNT
 voS
-sYF
+iHg
 kwq
 bVL
 jBw
@@ -100804,7 +100808,7 @@ bzO
 fRc
 utF
 rAY
-cXC
+fFZ
 mgk
 axT
 hbf
@@ -102375,7 +102379,7 @@ ljW
 ezM
 jHc
 ulz
-njD
+pGr
 aoy
 txH
 cKp
@@ -112359,7 +112363,7 @@ amC
 heE
 gyK
 rEf
-cip
+uRG
 pWy
 qPp
 xFb
